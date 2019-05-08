@@ -155,9 +155,52 @@ html,body{width:100%; height:100%;font-family: "宋体";}
 .page-on .p2-an{opacity: 1;-webkit-transform: none;}
 
 /* p5 */
-#p5{background-color: rgb(254, 235, 228);}
+#p5{background-color: rgb(254, 235, 228);color: rgb(151, 119, 98);}
 .p5-i1{position: absolute;left:0;top:0rem;width:6.4rem;}
 .p5-i2{position: absolute;left:0;bottom:0rem;width:6.4rem;}
+.p5-title{font-size: 0.5rem;display: inline-block;position: absolute;right:0.5rem;top:0.5rem;font-weight: 600;
+	opacity: 0;
+	-webkit-transform: translateX(40px);
+	-webkit-transition: all 0.5s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+.p5-t1{position: absolute;left:0.4rem;top:0.6rem;font-size: 0.34rem;
+	opacity: 0;
+	-webkit-transform: scale(2) rotate(45deg);
+	-webkit-transition: all 0.5s cubic-bezier(0.165, 0.84, 0.44, 1) 1s;
+}
+.p5-t2{
+	opacity: 0;
+	-webkit-transform: translateY(40px);
+	-webkit-transition: all 0.8s cubic-bezier(0.165, 0.84, 0.44, 1) 1.5s;
+}
+.p5-t3{
+	opacity: 0;
+	-webkit-transform: translateY(-40px);
+	-webkit-transition: all 0.8s cubic-bezier(0.165, 0.84, 0.44, 1) 1.5s;
+}
+.p5-add{position: absolute;left:0.4rem;top:1.5rem;font-size: 0.3rem}
+/*.p5-t3{position: absolute;left:0.4rem;top:1.3rem;width:5rem;}*/
+
+.p5-i3{position: absolute;right:0.4rem;top:2.6rem;width:5rem;
+	opacity: 0;
+	-webkit-transform: translateX(-100px);;
+	-webkit-transition: all 0.5s cubic-bezier(0.165, 0.84, 0.44, 1) 0.5s;
+}
+.p5-i4{position: absolute;right:0.2rem;top:6.02rem;width:3rem;
+	opacity: 0;
+	-webkit-transform: translateX(100px);;
+	-webkit-transition: all 0.5s cubic-bezier(0.165, 0.84, 0.44, 1) 1.6s;
+}
+.p5-tcon{position: absolute;left:0.4rem;top:6rem;font-size: 0.3rem;width: 4rem;background-color: rgba(252, 240, 236,0.6);height: 3rem;padding-top: 0.4rem;padding-left: 0.2rem;
+	opacity: 0;
+	-webkit-transition: all 0.5s cubic-bezier(0.165, 0.84, 0.44, 1) 1.8s;
+}
+.p5-txt:nth-of-type(1){-webkit-transition-delay: 2s}
+.p5-txt:nth-of-type(2){-webkit-transition-delay: 2.3s}
+.p5-txt:nth-of-type(3){-webkit-transition-delay: 2.6s}
+.p5-txt:nth-of-type(4){-webkit-transition-delay: 2.9s}
+.p5-txt:nth-of-type(5){-webkit-transition-delay: 3.2s}
+.p5-txt:nth-of-type(6){-webkit-transition-delay: 3.5s}
 .page-on .p5-an{opacity: 1;-webkit-transform: none;}
 /* slideup */
 .slideup{z-index:2000;width:0.9rem;position:absolute;left:2.80rem;bottom:0.2rem;
