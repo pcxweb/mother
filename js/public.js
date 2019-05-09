@@ -104,7 +104,7 @@ xx.hint=function(text){
     },2000);
 }
 xx.slidePage = function(){
-    var arrPage = ["#p1","#p2","#p3","#p4","#p5","#p6"]
+    var arrPage = ["#p1","#p2","#p3","#p4","#p5","#p6","#p7","#p8"]
     var _index = 0;
     if(arrPage.indexOf(xx.page.now)!=-1){
         _index=arrPage.indexOf(xx.page.now);
@@ -242,7 +242,7 @@ xx.main=function(){
         $('#page_loading').moveOut();
     }, 400);
 
-    xx.page.to('#p1');
+    xx.page.to('#p8');
 
     xx.slidePage()
 
