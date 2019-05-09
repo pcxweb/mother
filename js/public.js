@@ -242,7 +242,7 @@ xx.main=function(){
         $('#page_loading').moveOut();
     }, 400);
 
-    xx.page.to('#p8');
+    xx.page.to('#p1');
 
     xx.slidePage()
 
